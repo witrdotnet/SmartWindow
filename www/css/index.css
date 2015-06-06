@@ -1,28 +1,6 @@
-@media screen {
-    body {
-        background-image: url("../img/cover-landscape.png");
-    }
-}
-
-/* ========== galaxy S4 = */
-/ * Samsung Galaxy S4 Landscape */
-@media screen 
-(-webkit-min-device-pixel-ratio: 1.5), 
-(min-resolution: 144dpi)
-and (device-width: 1920px)
-and (orientation: landscape){ 
-    body {
-        background-image: url("../img/cover-landscape.png");
-    }
-}
-    
-/ * Samsung Galaxy S4 Portrait */    
-@media screen 
-(-webkit-min-device-pixel-ratio: 1.5), 
-(min-resolution: 144dpi)
-and (device-width: 1080px)
-and (orientation: portrait){ 
-    body {
-        background-image: url("../img/cover-portrait.png");
-    }
+.home {
+    background:url(../img/cover-landscape.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
 }
