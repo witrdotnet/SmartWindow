@@ -26,9 +26,14 @@
 	</script>
     </div>
 
+    <div data-role="page" id="waitForBeacon" class="waitForBeacon">
+	<div class="btnexit"></div>
+	<script>
+	sw.getInfoFromBeacon(3000);
+	</script>
+    </div>
 
-    <div data-role="page" id="waitForBeacon">
-
+    <div data-role="page" id="pageInfo">
 	<!-- home pager header -->
         <div data-theme="a" data-role="header">
             <h3>Smart Window</h3>
@@ -36,7 +41,7 @@
 
 	<!-- home page body -->
         <div data-role="content">
-            Waiting for beacon
+            Fly today
         </div>
 
 	<!-- home page footer -->

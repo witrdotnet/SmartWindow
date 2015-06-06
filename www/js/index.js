@@ -60,3 +60,19 @@ var sw = {
 		}, afterSec);
 	}
 }
+
+$(".btnexit").live("tap", function(event){
+         navigator.notification.confirm(
+             'Do you want to quit', 
+             onConfirmQuit, 
+             'QUIT TITLE', 
+             'OK,Cancel'  
+         );
+});
+
+
+    function onConfirmQuit(button){
+        if(button == "1"){
+            navigator.app.exitApp(); 
+        }
+    }

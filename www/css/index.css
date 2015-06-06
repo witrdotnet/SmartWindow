@@ -6,3 +6,21 @@
 }
 
 .flip{-webkit-animation-duration:.65s;-webkit-backface-visibility:hidden;-webkit-transform:translateX(0)}
+
+.waitForBeacon {
+    background:url(../img/waitForBeacon-landscape.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
+}
+
+.btnexit {
+    background:url(../img/bouton-exit.png) no-repeat center center;
+    background-size:100% 100%;
+    height:45px;
+    width:117px;
+    display:block;
+    position: fixed;
+    left:50px;
+    bottom:50px;
+}
