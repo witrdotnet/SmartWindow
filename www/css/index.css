@@ -4,3 +4,5 @@
     height:100%;
     width:100%;
 }
+
+.flip{-webkit-animation-duration:.65s;-webkit-backface-visibility:hidden;-webkit-transform:translateX(0)}

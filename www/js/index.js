@@ -48,4 +48,15 @@ var app = {
     }
 };
 
-app.initialize();
+//app.initialize();
+
+
+var sw = {
+	initialize: function() {
+	},
+	waitForBeacon: function(afterSec) {
+		setTimeout(function(){
+			$.mobile.navigate( "#waitForBeacon", { transition : "fade", info: "info about the #waitForBeacon hash" });
+		}, afterSec);
+	}
+}
