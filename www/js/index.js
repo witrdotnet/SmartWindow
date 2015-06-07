@@ -1,11 +1,11 @@
 
-$(document).on("pagecreate", "#home", function() {
+$(document).on("pageshow", "#home", function() {
 	setTimeout(function() {
 		$.mobile.navigate( "#waitForBeacon", { transition : "fade", info: "info about the #waitForBeacon hash" });
 	}, 5000);
 });
 
-$(document).on("pagecreate", "#waitForBeacon", function() {
+$(document).on("pageshow", "#waitForBeacon", function() {
 	$( "#waitForBeacon" ).on( "tap", function() {
 		$.mobile.navigate( "#loadFromBeacon", { transition : "fade", info: "info about the #loadFromBeacon hash" });
 	});
@@ -17,13 +17,13 @@ $(document).on("pagecreate", "#waitForBeacon", function() {
 	});
 });
 
-$(document).on("pagecreate", "#loadFromBeacon", function() {
+$(document).on("pageshow", "#loadFromBeacon", function() {
 	setTimeout(function() {
 		$.mobile.navigate( "#info1", { transition : "fade", info: "info about the #info1 hash" });
 	}, 3000);
 });
 
-$(document).on("pagecreate", "#info1", function() {
+$(document).on("pageshow", "#info1", function() {
 	$(".btnX").on("tap", function(e){
 		$.mobile.navigate( "#bye", { transition : "fade", info: "info about the #bye hash" });
 		e.stopPropagation();
@@ -34,7 +34,7 @@ $(document).on("pagecreate", "#info1", function() {
 	});
 });
 
-$(document).on("pagecreate", "#info2", function() {
+$(document).on("pageshow", "#info2", function() {
 	$(".btnX").on("tap", function(e){
 		$.mobile.navigate( "#bye", { transition : "fade", info: "info about the #bye hash" });
 		e.stopPropagation();
@@ -45,7 +45,7 @@ $(document).on("pagecreate", "#info2", function() {
 	});
 });
 
-$(document).on("pagecreate", "#info3", function() {
+$(document).on("pageshow", "#info3", function() {
 	$(".btnX").on("tap", function(e){
 		$.mobile.navigate( "#bye", { transition : "fade", info: "info about the #bye hash" });
 		e.stopPropagation();
@@ -56,7 +56,7 @@ $(document).on("pagecreate", "#info3", function() {
 	});
 });
 
-$(document).on("pagecreate", "#info4", function() {
+$(document).on("pageshow", "#info4", function() {
 	$(".btnX").on("tap", function(e){
 		$.mobile.navigate( "#bye", { transition : "fade", info: "info about the #bye hash" });
 		e.stopPropagation();
@@ -67,7 +67,7 @@ $(document).on("pagecreate", "#info4", function() {
 	});
 });
 
-$(document).on("pagecreate", "#endInfos", function() {
+$(document).on("pageshow", "#endInfos", function() {
 	$(".btnYeah").on("tap", function(){
 		$.mobile.navigate( "#waitForBeacon", { transition : "fade", info: "info about the #waitForBeacon hash" });
 	});
