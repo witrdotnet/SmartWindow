@@ -1,5 +1,5 @@
 .home {
-    background:url(../img/cover-landscape.png) no-repeat center center;
+    background:url(../img/cover.png) no-repeat center center;
     background-size:100% 100%;
     height:100%;
     width:100%;
@@ -8,7 +8,49 @@
 .flip{-webkit-animation-duration:.65s;-webkit-backface-visibility:hidden;-webkit-transform:translateX(0)}
 
 .waitForBeacon {
-    background:url(../img/waitForBeacon-landscape.png) no-repeat center center;
+    background:url(../img/waitForBeacon.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
+}
+
+.loadFromBeacon {
+    background:url(../img/loadFromBeacon.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
+}
+
+.info1 {
+    background:url(../img/info1.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
+}
+
+.info2 {
+    background:url(../img/info2.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
+}
+
+.info3 {
+    background:url(../img/info3.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
+}
+
+.info4 {
+    background:url(../img/info4.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
+}
+
+.endInfos {
+    background:url(../img/endInfos.png) no-repeat center center;
     background-size:100% 100%;
     height:100%;
     width:100%;
@@ -23,4 +65,33 @@
     position: fixed;
     left:50px;
     bottom:50px;
+}
+
+.btnNope {
+    background:url(../img/bouton-nope.png) no-repeat center center;
+    background-size:100% 100%;
+    height:45px;
+    width:117px;
+    display:block;
+    position: fixed;
+    left:350px;
+    bottom:150px;
+}
+
+.btnYeah {
+    background:url(../img/bouton-ohyeah.png) no-repeat center center;
+    background-size:100% 100%;
+    height:45px;
+    width:117px;
+    display:block;
+    position: fixed;
+    left:550px;
+    bottom:150px;
+}
+
+.bye {
+    background:url(../img/bye.png) no-repeat center center;
+    background-size:100% 100%;
+    height:100%;
+    width:100%;
 }
