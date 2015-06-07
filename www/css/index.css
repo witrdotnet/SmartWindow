@@ -56,6 +56,17 @@
     width:100%;
 }
 
+.btnX {
+    background:url(../img/bouton-x.png) no-repeat center center;
+    background-size:100% 100%;
+    height:67px;
+    width:42px;
+    display:block;
+    position: fixed;
+    top:10px;
+    right:10px;
+}
+
 .btnexit {
     background:url(../img/bouton-exit.png) no-repeat center center;
     background-size:100% 100%;
@@ -70,23 +81,23 @@
 .btnNope {
     background:url(../img/bouton-nope.png) no-repeat center center;
     background-size:100% 100%;
-    height:45px;
-    width:117px;
+    height:32px;
+    width:55px;
     display:block;
     position: fixed;
-    left:350px;
-    bottom:150px;
+    left:295px;
+    bottom:140px;
 }
 
 .btnYeah {
     background:url(../img/bouton-ohyeah.png) no-repeat center center;
     background-size:100% 100%;
-    height:45px;
-    width:117px;
+    height:55px;
+    width:61px;
     display:block;
     position: fixed;
-    left:550px;
-    bottom:150px;
+    left:390px;
+    bottom:130px;
 }
 
 .bye {
