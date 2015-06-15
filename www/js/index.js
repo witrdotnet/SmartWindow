@@ -1,3 +1,16 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady(){
+    document.addEventListener("backbutton", function(e){
+       if($.mobile.activePage.is('#bye')){
+           e.preventDefault();
+           navigator.app.exitApp();
+       }
+       else {
+	   $.mobile.navigate( "#home", { transition : "fade", info: "info about the #loadFromBeacon hash" });
+       }
+    }, false);
+}
 
 $(document).on("pageshow", "#home", function() {
 	setTimeout(function() {
